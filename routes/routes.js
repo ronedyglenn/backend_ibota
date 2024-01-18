@@ -1,17 +1,11 @@
 const express = require('express');
-const { } = require('../controlleurs/controlleurs');
-const PostModel = require('../model/model')
-
-
 const router =express.Router();
+const {getUtilisteur}  = require('../controlleurs/controlleurs.js');
+// const PostModel = require('../model/model')
 
 
 
-
-
-
-
-
+router.get("/api/utilisateur", getUtilisteur)
 
 
 
