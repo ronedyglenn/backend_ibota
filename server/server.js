@@ -32,7 +32,7 @@ const options = {
       },
       servers: [
         {
-          url: 'https://ibota.onrender.com/',
+          url: 'https://ibota.onrender.com',
         },
       ],
     },
